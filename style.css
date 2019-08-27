@@ -1,0 +1,304 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+
+#back{
+    width: 100%;
+    height: 100%;
+    background-image: url('web.jpg');
+    background-size: cover;
+}
+
+#overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#contain{
+    width: 100%;
+    height: 100%;
+
+}
+
+#containup{
+    width: 100%;
+    height: 80px;
+    background-color:#3d3d3d;
+    padding: 20px 40px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    color:#bdc3c7; 
+    }
+
+#a{
+    width: 30px;
+    height: 30px;
+    background-color:#fed330;
+    border-radius: 50%;
+    border:none;
+    text-align: center;
+    color:#3d3d3d;
+}
+
+#containup nav h1{
+    font-size: 30px;
+    display: flex;
+    color: white;
+}
+nav p{ 
+    transition: all ease-in-out;
+}
+nav p:hover{
+    transform: scale(1.2);
+     color: #f1c40f;
+}
+
+#containmid{
+    width: 100%;
+    height: 300px;
+    
+    text-align: center;
+    padding: 70px 0px 0px 0px;
+}
+
+#containmid h1{
+
+    top: 40px;
+    color: #fed330;
+    font-size: 50px;
+}
+
+#containmid h2{
+    color: #fed330;
+    font-size: 27px;
+    padding-bottom: 10px;
+}
+
+#containmid h3{
+    color: white;
+    font-size: 20px;
+
+}
+
+
+#containdown{
+    width: 100%;
+    height: 282px;
+    background-color:#3d3d3d;
+    display: flex;
+    padding: 0px 75px;
+}
+
+.box{
+    width: 250px;
+    height: 270px;
+    margin-right: 70px;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+#x{
+    width: 100px;
+    height: 100px;
+    background-color: #fed330;
+    border-radius: 50%;
+    font-size: 40px;
+    text-align: center;
+    color:#f5f6fa;
+    padding: 20px;
+    border: none;
+    left: 20%;
+    position: relative;
+
+}
+
+#y h1{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#y p{
+    font-size: 15px;
+    color:#bdc3c7;
+    text-align: center;
+}
+
+
+#partsecend{
+    width: 100%;
+    height: 500px;
+    background-color:#f1c40f;
+    
+    padding: 40px 60px;
+    
+}
+
+#partsecend h1{
+    font-size: 40px;
+    color:#f5f6fa;
+}
+
+#partsecend h2{
+    font-size: 25px;
+    color:#fff200;
+    border-bottom: 2px solid #ced6e0;
+    padding-bottom: 5px;
+    width: 98%;
+
+}
+
+#secend{
+    display: flex;
+    padding-top: 30px;
+}
+
+#secend p{
+    font-size: 20px;
+    color:#dcdde1 ;
+    
+    padding-top: 10px;
+
+}
+
+#img{
+    background-image: url('go.png');
+    background-size: cover;
+    width: 400px;
+     height: 300px;
+}
+
+#partthird{
+    width: 100%;
+    height: 80%;
+    background-color:#3d3d3d;
+    padding: 50px 150px 10px 100px;
+}
+
+#partthird h1{
+    font-size: 35px;
+    color: #f1c40f;
+    padding-bottom: 15px;
+}
+
+#partthird p{
+    font-size: 20px;
+    color: #ced6e0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ced6e0;
+    width: 88%;
+}
+
+input[type="text"]{
+    background-color: #4b4b4b;
+    padding: 5px 20px;
+    color: #747d8c;
+    
+    border: none;
+    
+}
+
+textarea{
+    background-color: #4b4b4b;
+    width: 730px;
+    border: none;
+    
+    
+    color: #747d8c;
+    
+    height: 230px;
+    position: relative;
+    left: 240px;
+    top:-160px;
+    
+}
+
+#partthird button{
+    position: relative;
+    left: 155px;
+    top: -120px;
+    padding: 5px 15px;
+    background-color: #f1c40f;
+    border: none;
+    color: #747d8c;
+
+}
+
+
+#partfour{
+    width: 100%;
+    height: 250px;
+    background-color: #f1c40f;
+    text-align: center;
+    padding-top: 40px;
+
+
+
+}
+
+#partfour h1{
+    font-size: 30px;
+    color:#f1f2f6;
+   padding-bottom: 10px;
+}
+#partfour h2{
+    font-size: 20px;
+   padding-bottom: 30px;
+
+    color:#ecf0f1;
+}
+
+#add{
+    display: flex;
+    justify-content: space-evenly;
+    color:white;
+    
+}
+
+#partfive{
+    width: 100%;
+    height: 100%;
+    background-image: url('map.gif');
+    background-size: cover;  
+}
+
+#futer{
+    width: 100%;
+    height: 200px;
+    background-color: #3d3d3d;
+}
+
+#futer h1{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding:30px 200px;
+    
+}
+
+#icons{
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+#icons p{
+    font-size: 40px;
+}
